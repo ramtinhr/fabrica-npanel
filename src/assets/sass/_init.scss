@@ -1,0 +1,33 @@
+//
+// Main init file of global bootstrap and theme functions, mixins, variables and config
+//
+
+// Functions
+@import 'base/functions';
+
+// Mixins
+@import 'base/mixins';
+@import 'components/mixins';
+
+// Global variables
+@import 'components/variables.bootstrap';
+@import 'components/variables.bootstrap';
+@import 'components/variables.custom';
+
+// Compoenents
+@import 'components/utilities', 'components/burger-icon', 'components/card',
+  'components/wizard', 'components/type', 'components/breadcrumb',
+  'components/nav', 'components/alert', 'components/buttons', 'components/code',
+  'components/dropdown', 'components/forms', 'components/grid',
+  'components/modal', 'components/progress', 'components/table',
+  'components/popover', 'components/tooltip', 'components/accordion',
+  'components/radio', 'components/switch', 'components/option',
+  'components/dialog', 'components/strikethrough', 'components/separator',
+  'components/image-input', 'components/label', 'components/loader',
+  'components/symbol', 'components/pulse', 'components/page-loader',
+  'components/quick-search', 'components/scrolltop', 'components/spinner',
+  'components/sticky-toolbar', 'components/svg-icon', 'components/svg',
+  'components/timeline', 'components/wave', 'components/list',
+  'components/bullet', 'components/navi', 'components/ribbon',
+  'components/offcanvas', 'components/toggle', 'components/aside',
+  'components/header', 'components/advertise';

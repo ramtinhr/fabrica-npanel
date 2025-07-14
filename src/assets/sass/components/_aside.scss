@@ -1,0 +1,50 @@
+.aside {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 90;
+  background-color: #1e1e2d;
+  width: 265px;
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 25px;
+    height: 65px;
+    background-color: #1a1a27;
+    box-shadow: none;
+  }
+  &__menu {
+    padding: 30px 0;
+    &-nav {
+      padding-right: 0;
+    }
+    &-item {
+      cursor: pointer;
+      transition: background-color 0.3s;
+      display: flex;
+      padding: 15px 20px;
+      color: #a2a3b7;
+      &-active {
+        color: #fff;
+        background-color: #1a1a27;
+        & svg {
+          color: #fff !important;
+        }
+      }
+      & svg {
+        color: #a2a3b7;
+        margin-left: 12px;
+      }
+      &:hover {
+        background-color: #1a1a27;
+        color: #fff;
+        & svg {
+          color: #fff !important;
+        }
+      }
+    }
+  }
+}

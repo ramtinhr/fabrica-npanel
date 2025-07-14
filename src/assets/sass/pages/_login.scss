@@ -1,0 +1,53 @@
+.login {
+
+  &__aside {
+    background: url('../../images/bg.jpg') no-repeat;
+    background-size: cover;
+    flex: 0 0 auto;
+    height: 100vh;
+    padding: 2.5rem;
+  }
+  &__title {
+    margin-bottom: 5rem;
+  }
+}
+
+// Desktop view
+@include media-breakpoint-up(lg) {
+  .login {
+    &__form {
+      width: 100%;
+      max-width: 450px;
+    }
+  }
+}
+
+// Tablet and Mobile mode
+@include media-breakpoint-between(lg, xl) {
+  .login {
+    &__form {
+      width: 100%;
+      max-width: 450px;
+    }
+  }
+}
+
+// Tablet mode
+@include media-breakpoint-down(md) {
+  .login {
+    &__form {
+      width: 100%;
+      max-width: 400px;
+    }
+  }
+}
+
+// Mobile mode
+@include media-breakpoint-down(xs) {
+  .login {
+    &__form {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+}
